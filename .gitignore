@@ -1,0 +1,16 @@
+# Local settings, credentials, sessions, logs and generated files are private.
+config.local.json
+*.local.json
+.env
+.env.*
+!.env.example
+*credentials*
+*.log
+*.pid
+*.bak
+*.zip
+node_modules/
+.dsh/
+.deepseek/
+state/
+__pycache__/
